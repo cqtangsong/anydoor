@@ -1,0 +1,37 @@
+{
+    "name": "anydoor",
+    "version": "1.0.0",
+    "description": "tiny nodejs static web server",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint .",
+        "fix": "eslint --fix ."
+    },
+    "pre-commit": [
+        "fix",
+        "lint"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cqtangsong/anydoor.git"
+    },
+    "author": "cqq",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/cqtangsong/anydoor/issues"
+    },
+    "homepage": "https://github.com/cqtangsong/anydoor#readme",
+    "devDependencies": {
+        "babel-eslint": "^10.0.3",
+        "eslint": "^6.8.0",
+        "eslint-plugin-react": "^7.18.3",
+        "pre-commit": "^1.2.2"
+    },
+    "eslintConfig": {
+        "env": {
+            "browser": true,
+            "node": true
+        }
+    }
+}
