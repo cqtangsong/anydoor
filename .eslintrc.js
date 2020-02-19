@@ -12,6 +12,6 @@ module.exports = {
   globals: {},
 
   rules: {
-    "no-console": "error"
+    // "no-console": "error"
   }
 };

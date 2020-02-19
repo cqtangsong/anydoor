@@ -1,10 +1,12 @@
 {
     "name": "anydoor",
-    "version": "1.0.0",
+    "version": "0.1.1",
     "description": "tiny nodejs static web server",
-    "main": "index.js",
+    "main": "src/app.js",
+    "bin": {
+        "anydoor": "bin/anydoor"
+    },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
         "lint": "eslint .",
         "fix": "eslint --fix ."
     },
@@ -33,5 +35,8 @@
             "browser": true,
             "node": true
         }
+    },
+    "dependencies": {
+        "yargs": "^15.1.0"
     }
 }
