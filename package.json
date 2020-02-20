@@ -1,10 +1,10 @@
 {
-    "name": "anydoor",
+    "name": "everydoor",
     "version": "0.1.1",
     "description": "tiny nodejs static web server",
     "main": "src/app.js",
     "bin": {
-        "anydoor": "bin/anydoor"
+        "everydoor": "bin/everydoor"
     },
     "scripts": {
         "lint": "eslint .",
